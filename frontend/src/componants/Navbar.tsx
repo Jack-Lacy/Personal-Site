@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 export default function Navbar() {
-    return <nav className="nav">
-        <Link to="/Home" className="site-title"> </Link>
+    return ( 
+    <nav className="nav">
         <ul>
             <li>
                 <Link to="/"> Home </Link>
@@ -16,5 +16,6 @@ export default function Navbar() {
                 <Link to="/MeInfo"> About Me </Link>
             </li>
         </ul>
-        </nav>
+    </nav>
+    )
 }
