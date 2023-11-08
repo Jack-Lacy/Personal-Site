@@ -2,10 +2,9 @@ import React from "react";
 import Navbar from "../componants/Navbar";
 import 'bootstrap/dist/css/bootstrap.min.css';
     
-function Projects (){
+function Experience (){
     return <>
-        <Navbar/>
-        <h1>Projects</h1>
+        <h1>Experience</h1>
     </>
 }
-export default Projects;
+export default Experience;
