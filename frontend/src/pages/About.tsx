@@ -1,12 +1,11 @@
 import React from "react";
-import Navbar from "./Navbar";
+import Navbar from "../componants/Navbar";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Home.css'
     
-function Home (){
+function About (){
     return <>
         <Navbar/>
-        <h1>Hello World</h1>
+        <h1>About</h1>
     </>
 }
-export default Home;
+export default About;

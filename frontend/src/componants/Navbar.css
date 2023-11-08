@@ -5,5 +5,7 @@
 
 nav {
     border-radius: 8px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
     padding-left: 20px;
 }
