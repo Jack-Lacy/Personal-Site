@@ -11,11 +11,19 @@ import Title from "./sections/Title";
 function App() {
   return (
     <>
-    <Navbar/>
-    <Title/>
-    <Experience/>
-    <Projects/>
-    <About/>
+    <div id="titleImageContainer">
+      <Navbar/>
+      <Title/>
+    </div>
+    <div id="expImageContainer">
+      <Experience/>
+    </div>
+    <div id="projImageContainer">
+      <Projects/>
+    </div>
+    <div id="aboutImageContainer">
+      <About/>
+    </div>
     </>
   );
 }
