@@ -1,22 +1,29 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import Home from './pages/Home';
-import Experience from "./pages/Experience";
-import Projects from "./pages/Projects";
-import About from "./pages/About";
+import Experience from "./sections/Experience";
+import Projects from "./sections/Projects";
+import About from "./sections/About";
+import Navbar from "./componants/Navbar";
+import Title from "./sections/Title";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />}/>
-        <Route path="/experience" element={<Experience />}/>
-        <Route path="/projects" element={<Projects />}/>
-        <Route path="/about" element={<About />}/>
-      </Routes>
-    </BrowserRouter>
+    <>
+    <div id="titleImageContainer">
+      <Navbar/>
+      <Title/>
+    </div>
+    <div id="expImageContainer">
+      <Experience/>
+    </div>
+    <div id="projImageContainer">
+      <Projects/>
+    </div>
+    <div id="aboutImageContainer">
+      <About/>
+    </div>
+    </>
   );
 }
 
