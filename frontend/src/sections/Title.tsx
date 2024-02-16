@@ -1,7 +1,5 @@
 import React from "react";
-import Navbar from "../componants/Navbar";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Title.css'
     
 function Title () {
     return <>
