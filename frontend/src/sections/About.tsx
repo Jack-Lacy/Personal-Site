@@ -1,8 +1,8 @@
 import React from "react";
 import Navbar from "../componants/Navbar";
 import 'bootstrap/dist/css/bootstrap.min.css';
-    
-function About (){
+
+function About() {
     return <>
         <h1>About</h1>
         <div className="textBox">
@@ -10,4 +10,5 @@ function About (){
         </div>
     </>
 }
+
 export default About;
