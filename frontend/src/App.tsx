@@ -17,7 +17,7 @@ function App() {
                              "my skills and shed light on the experiences and projects I am the most proud of. Enjoy!"}></Section>
                 <Section header={"Experience"}
                          text={"Go through various relevant experiences (CARFAX, WEST, maybe Metro) and explain what I learned and how\n" +
-                    "                they shaped me"}></Section>
+                             "they shaped me"}></Section>
                 <Section header={"Projects"}
                          text={"Talk about the projects I have done both in and out of school and explain what I learned through them"}></Section>
                 <Section header={"About"}
