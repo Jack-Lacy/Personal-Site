@@ -6,7 +6,7 @@ import "./Navbar.css";
 export default function Navbar() {
     return (
         <div id="navHoverArea">
-            <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+            <nav className="navbar navbar-expand-lg navbar-light">
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">

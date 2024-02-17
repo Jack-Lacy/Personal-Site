@@ -1,5 +1,6 @@
 #app {
   align-content: center;
+  background-image: linear-gradient(to bottom right, #169bee, #2fde2f);
 }
 
 div.textBox {
