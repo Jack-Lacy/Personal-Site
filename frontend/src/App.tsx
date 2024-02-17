@@ -1,11 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import Experience from "./sections/Experience";
-import Projects from "./sections/Projects";
-import About from "./sections/About";
 import Navbar from "./componants/Navbar";
-import Title from "./sections/Title";
 import Section from "./componants/Section";
 
 function App() {
@@ -19,15 +15,13 @@ function App() {
                              "developer intern and have been enjoying my time learning how software engineers get things done in the real world.\n" +
                              "I decided to build this website using some of the technologies I have learned in school and indstry to demonstrate\n" +
                              "my skills and shed light on the experiences and projects I am the most proud of. Enjoy!"}></Section>
-                <div id="expImageContainer">
-                    <Experience/>
-                </div>
-                <div id="projImageContainer">
-                    <Projects/>
-                </div>
-                <div id="aboutImageContainer">
-                    <About/>
-                </div>
+                <Section header={"Experience"}
+                         text={"Go through various relevant experiences (CARFAX, WEST, maybe Metro) and explain what I learned and how\n" +
+                    "                they shaped me"}></Section>
+                <Section header={"Projects"}
+                         text={"Talk about the projects I have done both in and out of school and explain what I learned through them"}></Section>
+                <Section header={"About"}
+                         text={"Further in depth about the site itself and the technologies used to create it"}></Section>
             </div>
         </>
     );
