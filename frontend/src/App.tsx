@@ -7,7 +7,6 @@ import Section from "./componants/Section";
 function App() {
     return (
         <>
-            <div id="app">
                 <Navbar/>
                 <Section header={"Welcome"}
                          text={"Hello and welcome to my personal website! I am a software engineering student at the University of Western Ontario\n" +
@@ -22,7 +21,6 @@ function App() {
                          text={"Talk about the projects I have done both in and out of school and explain what I learned through them"}></Section>
                 <Section header={"About"}
                          text={"Further in depth about the site itself and the technologies used to create it"}></Section>
-            </div>
         </>
     );
 }
