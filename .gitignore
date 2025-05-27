@@ -1,3 +1,4 @@
 #Ignoring all node modules
 frontend/node_modules
 backend/node_modules
+/.idea
