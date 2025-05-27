@@ -8,14 +8,17 @@
 }
 
 .Text {
+  color: white;
   width: 40%;
   display: flex;
   flex-direction: column;
   h1 {
+    font-size: 4vw;
     text-align: left;
     padding: 10px;
   }
   .Paragraph {
+    font-size: 1.1vw;
     text-align: left;
     padding: 10px;
   }
