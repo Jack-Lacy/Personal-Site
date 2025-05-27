@@ -1,0 +1,22 @@
+.About {
+  height: 94vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3vw;
+}
+
+.Text {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  h1 {
+    text-align: left;
+    padding: 10px;
+  }
+  .Paragraph {
+    text-align: left;
+    padding: 10px;
+  }
+}
