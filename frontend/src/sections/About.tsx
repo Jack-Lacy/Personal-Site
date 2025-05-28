@@ -24,7 +24,7 @@ export default function About() {
                         more.
                     </p>
                 </div>
-                <Button variant="primary" onClick={() => downloadResume()}>Resume</Button>
+                <Button className="ResumeButton" variant="primary" onClick={() => downloadResume()}>Resume</Button>
             </div>
             <Slideshow/>
         </div>
