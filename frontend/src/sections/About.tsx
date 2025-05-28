@@ -1,7 +1,12 @@
 import './About.scss'
 import Slideshow from "../componants/Slideshow";
+import Button from 'react-bootstrap/Button';
 
 export default function About() {
+    function downloadResume() {
+        window.open("/resources/Jack-Resume.pdf");
+    }
+
     return (
         <div className="About">
             <div className="Text">
@@ -14,11 +19,12 @@ export default function About() {
                     </p>
                     <br/>
                     <p>
-                        Outside of my studies, I enjoy camping, running, and video games. I also enjoy pursing software
+                        Outside of my studies, I enjoy camping, traveling, and video games. I also enjoy pursing software
                         development passion projects in fields of cloud development, game development, networking, and much
                         more.
                     </p>
                 </div>
+                <Button variant="primary" onClick={() => downloadResume()}>Resume</Button>
             </div>
             <Slideshow/>
         </div>
