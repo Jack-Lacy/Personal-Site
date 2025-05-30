@@ -1,0 +1,23 @@
+.Projects {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3vw;
+  .Text {
+    color: white;
+    width: 60%;
+    h1 {
+      font-size: 4vw;
+      text-align: center;
+      padding: 10px;
+      animation: 1.5s fadeInUp;
+    }
+    .Paragraph {
+      font-size: 1.1vw;
+      text-align: center;
+      padding: 10px;
+    }
+  }
+}
