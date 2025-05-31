@@ -1,4 +1,5 @@
 import "./Projects.scss"
+import Tile from "../componants/Tile";
 
 export default function Projects() {
     return (
@@ -13,11 +14,36 @@ export default function Projects() {
                 </div>
             </div>
             <div className="Tiles">
-                <div className="Tile"></div>
-                <div className="Tile"></div>
-                <div className="Tile"></div>
-                <div className="Tile"></div>
-                <div className="Tile"></div>
+                <Tile
+                    title="B-Nav"
+                    description="blah blah"
+                    techStack={["React", "TypeScript", "AWS"]}
+                />
+                <Tile
+                    title="WETT Technical Display"
+                    description="blah blah"
+                    techStack={["React", "TypeScript", "AWS"]}
+                />
+                <Tile
+                    title="Secure Family Messaging"
+                    description="blah blah"
+                    techStack={["React", "TypeScript", "AWS"]}
+                />
+                <Tile
+                    title="Personal Website"
+                    description="blah blah"
+                    techStack={["React", "TypeScript", "AWS"]}
+                />
+                <Tile
+                    title="Grapple Monkey"
+                    description="blah blah"
+                    techStack={["React", "TypeScript", "AWS"]}
+                />
+                <Tile
+                    title="Heart Attack Risk Factor Analysis"
+                    description="blah blah"
+                    techStack={["React", "TypeScript", "AWS"]}
+                />
             </div>
         </div>
     )
