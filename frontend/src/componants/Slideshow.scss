@@ -8,21 +8,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: 1.5s fadeInLeft;
 }
 
 .carousel-caption {
-  background-color: rgba(0, 0, 0, 0.5); /* dark background with transparency */
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 1rem;
   border-radius: 10px;
 }
 
 .carousel-control-prev-icon {
-  background-color: rgba(0, 0, 0, 0.5); /* dark background with transparency */
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 2rem;
   border-radius: 10px;
 }
 .carousel-control-next-icon {
-  background-color: rgba(0, 0, 0, 0.5); /* dark background with transparency */
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 2rem;
   border-radius: 10px;
 }
@@ -52,4 +53,15 @@ img {
   height: 100%;
   object-fit: cover;
   border-radius: 20px;
+}
+
+@keyframes fadeInLeft {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
 }

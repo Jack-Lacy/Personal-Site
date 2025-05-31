@@ -14,7 +14,7 @@
       font-size: 4vw;
       text-align: left;
       padding: 10px;
-      animation: 1.5s fadeInUp;
+      animation: 1.5s fadeInDown;
     }
     .Paragraph {
       font-size: 1.1vw;
@@ -29,7 +29,7 @@
   margin: 1%;
 }
 
-@keyframes fadeInUp {
+@keyframes fadeInDown {
   0% {
     transform: translateY(-100%);
     opacity: 0;
