@@ -14,14 +14,16 @@ export default function About() {
                 <div className="Paragraph">
                     <p>
                         I am an incoming master's student and previous software engineering graduate at Western University,
-                        with my research focus being on generative AI for software development. I am passionate about the
-                        quality of my work and I enjoy solving interesting and complex problems in software development
+                        with my research focus being on generative AI for software development. I previously interned at
+                        CARFAX where gained experience in cloud (AWS) development, Java development, React + TypeScript
+                        development, and much more. I am passionate about the quality of my work and I enjoy solving
+                        interesting and complex problems in software development
                     </p>
                     <br/>
                     <p>
-                        Outside of my studies, I enjoy camping, traveling, and video games. I also enjoy pursing software
-                        development passion projects in fields of cloud development, game development, networking, and much
-                        more.
+                        Outside of my studies, I enjoy camping, traveling, and video games. You can see some pictures
+                        from camping and traveling on the right! I also enjoy pursing software development passion
+                        projects in fields of cloud development, game development, networking, and much more.
                     </p>
                 </div>
                 <Button className="ResumeButton" variant="primary" onClick={() => downloadResume()}>Resume</Button>
