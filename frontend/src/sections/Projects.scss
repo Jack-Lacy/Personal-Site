@@ -2,22 +2,66 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 3vw;
+  padding: 3vh;
+
   .Text {
     color: white;
     width: 60%;
+    height: 30vh;
+
     h1 {
       font-size: 4vw;
       text-align: center;
       padding: 10px;
       animation: 1.5s fadeInUp;
     }
+
     .Paragraph {
       font-size: 1.1vw;
       text-align: center;
       padding: 10px;
     }
   }
+
+  .Tiles {
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+    gap: 2vw;
+    overflow-x: scroll;
+    white-space: nowrap;
+    width: 100%;
+    padding-top: 2vh;
+    padding-bottom: 0;
+
+    .Tile {
+      flex: 0 0 23.5%;
+      width: 30%;
+      height: 95%;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease;
+
+      &:hover {
+        transform: translateY(-20px);
+      }
+    }
+  }
+}
+
+.Tiles::-webkit-scrollbar {
+  height: 10px;
+
+}
+
+.Tiles::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.Tiles::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
 }

@@ -12,6 +12,13 @@ export default function Projects() {
                     </p>
                 </div>
             </div>
+            <div className="Tiles">
+                <div className="Tile"></div>
+                <div className="Tile"></div>
+                <div className="Tile"></div>
+                <div className="Tile"></div>
+                <div className="Tile"></div>
+            </div>
         </div>
     )
 }
