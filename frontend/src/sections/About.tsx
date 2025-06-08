@@ -8,7 +8,7 @@ export default function About() {
     }
 
     return (
-        <div className="About">
+        <div className="About" id="about">
             <div className="Text">
             <h1>Hi! I'm Jack</h1>
                 <div className="Paragraph">
