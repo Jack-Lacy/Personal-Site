@@ -20,7 +20,8 @@ export default function Projects() {
                     techStack={[
                         ["React", "#61DBFB"],
                         ["TypeScript", "#3178c6"],
-                        ["AWS", "#FF9900"],
+                        ["leaflet.js", "#b8ff6c"],
+                        ["AWS", "#FF9900"]
                     ]}
                 />
                 <Tile
@@ -29,8 +30,10 @@ export default function Projects() {
                     techStack={[
                         ["React", "#61DBFB"],
                         ["TypeScript", "#3178c6"],
+                        ["Three.js", "#ffffff"],
                         ["AWS", "#FF9900"],
                     ]}
+                    url="https://github.com/Jack-Lacy/WETT-Technical-Display"
                 />
                 <Tile
                     title="Secure Family Messaging"

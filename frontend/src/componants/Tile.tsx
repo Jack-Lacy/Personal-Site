@@ -11,7 +11,13 @@ interface TileProps{
 
 export default function Tile(props: TileProps) {
     return (
-        <div style={props.colour ? { backgroundColor: props.colour } : { backgroundColor: "#d6f8ff" }} className="Tile">
+        <div style={{
+                backgroundColor: props.colour || "#d6f8ff",
+                cursor: props.url ? "pointer" : "default"
+            }}
+             className="Tile"
+             onClick={() => props.url && (window.open(props.url))}
+        >
             <div className="InnerTile">
                 <h2>{props.title}</h2>
                 <p>
