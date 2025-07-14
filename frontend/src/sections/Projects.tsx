@@ -17,32 +17,56 @@ export default function Projects() {
                 <Tile
                     title="B-Nav"
                     description="blah blah"
-                    techStack={["React", "TypeScript", "AWS"]}
+                    techStack={[
+                        ["React", "#61DBFB"],
+                        ["TypeScript", "#3178c6"],
+                        ["AWS", "#FF9900"],
+                    ]}
                 />
                 <Tile
                     title="WETT Technical Display"
                     description="blah blah"
-                    techStack={["React", "TypeScript", "AWS"]}
+                    techStack={[
+                        ["React", "#61DBFB"],
+                        ["TypeScript", "#3178c6"],
+                        ["AWS", "#FF9900"],
+                    ]}
                 />
                 <Tile
                     title="Secure Family Messaging"
                     description="blah blah"
-                    techStack={["React", "TypeScript", "AWS"]}
+                    techStack={[
+                        ["React", "#61DBFB"],
+                        ["TypeScript", "#3178c6"],
+                        ["AWS", "#FF9900"],
+                    ]}
                 />
                 <Tile
                     title="Personal Website"
                     description="blah blah"
-                    techStack={["React", "TypeScript", "AWS"]}
+                    techStack={[
+                        ["React", "#61DBFB"],
+                        ["TypeScript", "#3178c6"],
+                        ["AWS", "#FF9900"],
+                    ]}
                 />
                 <Tile
                     title="Grapple Monkey"
                     description="blah blah"
-                    techStack={["React", "TypeScript", "AWS"]}
+                    techStack={[
+                        ["React", "#61DBFB"],
+                        ["TypeScript", "#3178c6"],
+                        ["AWS", "#FF9900"],
+                    ]}
                 />
                 <Tile
                     title="Heart Attack Risk Factor Analysis"
                     description="blah blah"
-                    techStack={["React", "TypeScript", "AWS"]}
+                    techStack={[
+                        ["React", "#61DBFB"],
+                        ["TypeScript", "#3178c6"],
+                        ["AWS", "#FF9900"],
+                    ]}
                 />
             </div>
         </div>

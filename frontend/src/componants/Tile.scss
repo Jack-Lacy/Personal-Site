@@ -1,6 +1,24 @@
 .InnerTile {
-  margin: 10px;
+  margin: 6%;
+  height: 94%;
+  display: flex;
+  flex-direction: column;
   white-space: normal;
   word-wrap: break-word;
   overflow-wrap: break-word;
+}
+
+.Skills {
+  margin-top: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  overflow-y: auto;
+  .Skill {
+    font-size: 20px;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+  }
 }
