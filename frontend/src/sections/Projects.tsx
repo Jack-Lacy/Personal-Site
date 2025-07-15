@@ -34,7 +34,7 @@ export default function Projects() {
                     description="The Western Engineering Toboggan Team technical display was created as a simple way to
                     view and interact with the various componants and structures of Western's concrete toboggan. The
                     site was on display at the great northern concrete toboggan race (GNCTR 2025) during the technical
-                    exhibition."
+                    exhibition. The site can be accessed at wett-tech-ex.ca/"
                     techStack={[
                         ["React", "#61DBFB"],
                         ["TypeScript", "#3178c6"],
