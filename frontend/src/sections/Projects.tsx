@@ -3,7 +3,7 @@ import Tile from "../componants/Tile";
 
 export default function Projects() {
     return (
-        <div className="Projects">
+        <div className="Projects" id="projects">
             <div className="Text">
                 <h1>My Projects</h1>
                 <div className="Paragraph">
