@@ -3,7 +3,7 @@ import Tile from "../componants/Tile";
 
 export default function Projects() {
     return (
-        <div className="Projects" id="projects">
+        <div className="Projects">
             <div className="Text">
                 <h1>My Projects</h1>
                 <div className="Paragraph">
@@ -20,7 +20,7 @@ export default function Projects() {
                     engineering buildings. This project utilizes a custom node like data-structure, uniform cost
                     search, and leaflet.js to navigate from one spot to another. Accessibility options can be enabled
                     to ensure everyone is able to navigate through Western's maze-like structure of buildings. B-Nav was
-                    a 4th year capstone project and won 3rd place overall."
+                    a 4th year capstone project and won 3rd place overall out of 30+ projects."
                     techStack={[
                         ["React", "#61DBFB"],
                         ["TypeScript", "#3178c6"],
