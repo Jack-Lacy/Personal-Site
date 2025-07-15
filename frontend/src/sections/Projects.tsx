@@ -16,17 +16,25 @@ export default function Projects() {
             <div className="Tiles">
                 <Tile
                     title="B-Nav"
-                    description="blah blah"
+                    description="B-Nav is a project aimed at helping people at Western University navigate the
+                    engineering buildings. This project utilizes a custom node like data-structure, uniform cost
+                    search, and leaflet.js to navigate from one spot to another. Accessibility options can be enabled
+                    to ensure everyone is able to navigate through Western's maze-like structure of buildings. B-Nav was
+                    a 4th year capstone project and won 3rd place overall."
                     techStack={[
                         ["React", "#61DBFB"],
                         ["TypeScript", "#3178c6"],
                         ["leaflet.js", "#b8ff6c"],
                         ["AWS", "#FF9900"]
                     ]}
+                    colour={"#ca65f8"}
                 />
                 <Tile
                     title="WETT Technical Display"
-                    description="blah blah"
+                    description="The Western Engineering Toboggan Team technical display was created as a simple way to
+                    view and interact with the various componants and structures of Western's concrete toboggan. The
+                    site was on display at the great northern concrete toboggan race (GNCTR 2025) during the technical
+                    exhibition."
                     techStack={[
                         ["React", "#61DBFB"],
                         ["TypeScript", "#3178c6"],
@@ -34,6 +42,7 @@ export default function Projects() {
                         ["AWS", "#FF9900"],
                     ]}
                     url="https://github.com/Jack-Lacy/WETT-Technical-Display"
+                    colour={"#76eeff"}
                 />
                 <Tile
                     title="Secure Family Messaging"
