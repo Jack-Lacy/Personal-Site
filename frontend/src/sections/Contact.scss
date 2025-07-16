@@ -1,0 +1,26 @@
+.Contact {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4vw 3vw 2vw;
+  color: white;
+
+  h1 {
+    padding-top: 20vh;
+    padding-bottom: 3vh;
+    font-size: 4vw;
+  }
+
+  h2 {
+    font-size: 1.5vw;
+    padding-bottom: 10vh;
+  }
+
+  .Widgets {
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    gap: 1vw;
+  }
+}

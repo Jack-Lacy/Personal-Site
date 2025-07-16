@@ -12,7 +12,7 @@ interface TileProps{
 export default function Tile(props: TileProps) {
     return (
         <div style={{
-            background: `linear-gradient(135deg, ${props.colour || "#d6f8ff"}, #3498DB)`,
+            background: `linear-gradient(135deg, #d6f8ff, ${props.colour || "#3498DB"})`,
                 cursor: props.url ? "pointer" : "default"
             }}
              className="Tile"
