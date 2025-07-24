@@ -12,6 +12,12 @@
   animation: 1.5s fadeInLeft;
 }
 
+@media (max-width: 768px) {
+  .Slideshow {
+    width: 90vw;
+  }
+}
+
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 1rem;

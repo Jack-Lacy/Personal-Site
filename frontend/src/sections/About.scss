@@ -30,6 +30,36 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
 
+@media (max-width: 768px) {
+  .About {
+    flex-direction: column;
+    height: auto;
+    padding: 6vw 4vw;
+
+    .Text {
+      width: 100%;
+
+      h1 {
+        font-size: 8vw;
+        text-align: center;
+        padding-top: 4rem;
+      }
+
+      .Paragraph {
+        font-size: 4vw;
+        text-align: center;
+        padding: 6px;
+      }
+    }
+  }
+
+  .ResumeButton {
+    width: 90%;
+    margin: 4% auto;
+    display: block;
+  }
+}
+
 @keyframes fadeInDown {
   0% {
     transform: translateY(-100%);
