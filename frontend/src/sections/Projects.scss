@@ -52,6 +52,46 @@
   }
 }
 
+@media (max-width: 768px) {
+  .Projects {
+    height: auto;
+    padding: 8vw 4vw;
+
+    .Text {
+      width: 100%;
+      height: auto;
+
+      h1 {
+        font-size: 8vw;
+        padding: 6px;
+      }
+
+      .Paragraph {
+        font-size: 4.5vw;
+        padding: 6px;
+      }
+    }
+
+    .Tiles {
+      flex-direction: row;
+      gap: 4vw;
+      height: 90vh;
+      padding-top: 5vh;
+      padding-bottom: 5vh;
+      overflow-x: scroll;
+      scroll-snap-type: x mandatory;
+
+      .Tile {
+        flex: 0 0 80%;
+        max-width: 80%;
+        height: 95%;
+        scroll-snap-align: center;
+      }
+    }
+  }
+}
+
+
 .Tiles::-webkit-scrollbar {
   height: 10px;
 
