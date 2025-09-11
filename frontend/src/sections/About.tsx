@@ -15,7 +15,7 @@ export default function About() {
                     <p>
                         I am a master's student and previous software engineering graduate at Western University,
                         with my research focus being on generative AI for software development. I previously interned at
-                        CARFAX where gained experience in cloud (AWS) development, Java development, React + TypeScript
+                        CARFAX where I gained experience in cloud (AWS) development, Java development, React + TypeScript
                         development, and much more. I am passionate about the quality of my work and I enjoy solving
                         interesting and complex problems in software development
                     </p>
