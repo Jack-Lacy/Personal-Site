@@ -16,11 +16,15 @@ export default function Experience() {
             <div className="ExperienceTiles">
                 <ExperienceTile
                     jobTitle="Graduate Teaching Assistant"
+                    company="Western University"
                     jobDescription="This is a job description"
+                    colour="#8F55E0"
                 />
                 <ExperienceTile
                     jobTitle="Software Development Intern"
+                    company="CARFAX"
                     jobDescription="This is a job description"
+                    colour="#1294EF"
                 />
             </div>
         </div>
