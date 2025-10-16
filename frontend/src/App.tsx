@@ -5,6 +5,7 @@ import Projects from "./sections/Projects";
 import Contact from "./sections/Contact";
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import Experience from "./sections/Experience";
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
                         <Nav className="ms-auto">
                             <Nav.Link href="#about">About</Nav.Link>
                             <Nav.Link href="#projects">Projects</Nav.Link>
+                            <Nav.Link href="#experience">Experience</Nav.Link>
                             <Nav.Link href="#contact">Contact</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
@@ -23,6 +25,7 @@ function App() {
             </Navbar>
             <About/>
             <Projects/>
+            <Experience/>
             <Contact/>
         </div>
     );

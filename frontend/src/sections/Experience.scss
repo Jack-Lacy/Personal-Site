@@ -1,0 +1,107 @@
+.Experience {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4vw 3vw 2vw;
+
+  .Text {
+    color: white;
+    width: 60%;
+    height: 20vh;
+
+    h1 {
+      font-size: 4vw;
+      text-align: center;
+      padding: 10px;
+      animation: 1.5s;
+    }
+
+    .Paragraph {
+      font-size: 1.3vw;
+      text-align: center;
+      padding: 10px;
+    }
+  }
+
+  .ExperienceTiles {
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+    gap: 2vw;
+    overflow-x: scroll;
+    white-space: nowrap;
+    width: 100%;
+    padding-top: 3vh;
+    padding-bottom: 0;
+
+    .ExperienceTile {
+      flex: 0 0 48%;
+      max-width: 48%;
+      height: 95%;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+      transition: transform 0.3s ease-in-out;
+
+      &:hover {
+        transform: translateY(-20px);
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .Projects {
+    height: auto;
+    padding: 8vw 4vw;
+
+    .Text {
+      width: 100%;
+      height: auto;
+
+      h1 {
+        font-size: 8vw;
+        padding: 6px;
+      }
+
+      .Paragraph {
+        font-size: 4.5vw;
+        padding: 6px;
+      }
+    }
+
+    .ExperienceTiles {
+      flex-direction: row;
+      gap: 4vw;
+      height: 90vh;
+      padding-top: 5vh;
+      padding-bottom: 5vh;
+      overflow-x: scroll;
+      scroll-snap-type: x mandatory;
+
+      .ExperienceTile {
+        flex: 0 0 80%;
+        max-width: 80%;
+        height: 95%;
+        scroll-snap-align: center;
+      }
+    }
+  }
+}
+
+
+.Tiles::-webkit-scrollbar {
+  height: 10px;
+
+}
+
+.Tiles::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.Tiles::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
