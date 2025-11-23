@@ -17,13 +17,17 @@ export default function Experience() {
                 <ExperienceTile
                     jobTitle="Graduate Teaching Assistant"
                     company="Western University"
-                    jobDescription="This is a job description"
+                    jobDescription="I facilitate labs, grading, and proctoring for AISE 3309 (Databases for artificial
+                    intelligence systems engineering students)."
                     colour="#8F55E0"
                 />
                 <ExperienceTile
                     jobTitle="Software Development Intern"
                     company="CARFAX"
-                    jobDescription="This is a job description"
+                    jobDescription="Contributed to multiple projects at CARFAX, including a document scraping engine and
+                     automated deployment pipelines. Collaborated with senior engineers in an agile environment,
+                     practicing pair programming and test-driven development. Gained hands-on experience in React.js,
+                     Java, AWS, and CI/CD using GitLab."
                     colour="#1294EF"
                 />
             </div>
