@@ -20,10 +20,17 @@ export default function Slideshow() {
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src="/resources/slideshow/qewpp.jpg" alt="marseilles pic" />
+                    <img src="/resources/slideshow/qewpp.jpg" alt="camping pic" />
                     <Carousel.Caption>
                         <h3>Queen Elizabeth Wildlands Provincial Park, Ontario, Canada</h3>
                         <p>Showing off the beautiful campsite we were able to find when canoe camping with friends.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img src="/resources/slideshow/cats.jpg" alt="cats pic" />
+                    <Carousel.Caption>
+                        <h3>Home, Milton Ontario</h3>
+                        <p>These are my cats! The tuxedo cat's name is Beau, and the brownish, grey one is Mabel</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
