@@ -21,5 +21,4 @@ code {
 html, body {
   background: radial-gradient(circle,rgba(105, 245, 255, 1) 0%, rgba(12, 6, 61, 1) 100%);
   overflow-x: hidden;
-  overscroll-behavior: none;
 }
