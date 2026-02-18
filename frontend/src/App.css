@@ -22,3 +22,13 @@
         padding: 10px 0;
     }
 }
+
+@media (max-width: 768px) {
+    .Navbar .navbar-collapse {
+        background: rgba(0, 0, 0, 0.95);
+        padding: 1rem;
+        border-radius: 8px;
+        margin-top: 10px;
+    }
+}
+

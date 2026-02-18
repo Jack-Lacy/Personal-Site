@@ -19,7 +19,16 @@ code {
 }
 
 html, body {
-  background: radial-gradient(circle,rgba(105, 245, 255, 1) 0%, rgba(12, 6, 61, 1) 100%);
   overflow-x: hidden;
+}
+
+html, body, #root {
+  height: 100%;
+  overflow-y: auto;
+}
+
+#root {
+  overflow-y: auto;
   overscroll-behavior: none;
+  background: radial-gradient(circle, rgba(105,245,255,1) 0%, rgba(12,6,61,1) 100%);
 }
