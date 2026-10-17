@@ -15,6 +15,22 @@ export default function Projects() {
             </div>
             <div className="Tiles">
                 <Tile
+                    title="LLM Story Point Estimation"
+                    description="In this graduate project, I was able to train Google's open-source Gemma3-4b model on
+                    the dataset generated in the 2016 paper 'A deep learning model for estimating story points'
+                    [M. Choetkiertikul et al.]. In this project we found that the 4 billion parameter Gemma model
+                    performs stronger then the 20 billion parameter GPT-OSS model when fine tuned on estimating story-
+                    points per project."
+                    techStack={[
+                        ["Python", "#FFE873"],
+                        ["Jupyter", "#FF9900"],
+                        ["HuggingFace", "#FFD21E"],
+                        ["LM Studio", "#6F42C1"]
+                    ]}
+                    url="https://github.com/Jack-Lacy/LLM-Story-Point-Estimation"
+                    colour={"#f8c965"}
+                />
+                <Tile
                     title="B-Nav"
                     description="B-Nav is a project aimed at helping people at Western University navigate the
                     engineering buildings. This project utilizes a custom node like data-structure, uniform cost
