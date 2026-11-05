@@ -14,7 +14,7 @@ export default function About() {
                 <div className="Paragraph">
                     <p>
                         I am a master's student and previous software engineering graduate at Western University,
-                        with my research focus being on generative AI for software development. I previously interned at
+                        with my research focus being on machine learning-based computer vision pipelines with LLM integration, for the purpose of dental pre-clinical education. I previously interned at
                         CARFAX where I gained experience in cloud (AWS) development, Java development, React + TypeScript
                         development, and much more. I am passionate about the quality of my work and I enjoy solving
                         interesting and complex problems in software development
